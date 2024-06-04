@@ -51,7 +51,7 @@ update student set firstName = "Pawan" where Roll_no = 1;
 delete from student where Roll_no = 22;
 delete from student where class = 10;
 
--- 6) Truncate  --> Use to delete All 'rows' (complete data) from table and is faster but cannot be rolled back   ----------------------------------
+-- 6) Truncate  --> Use to delete All 'rows' (complete data. but, not table) from table and is faster but cannot be rolled back -------------------------
 
 
 -- 7) Drop  --> Used to remove(Delete) whole Database, Table and data existing SQL
